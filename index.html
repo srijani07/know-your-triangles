@@ -5,19 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>triangle validator</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <p>Enter the three angles : </p>
-    <input id="input-one" type="number" >
-    <input id="input-two" type="number">
-    <input id="input-three" type="number" >
-
+    <header>triangle validator!</header>
+    Enter the three angles below : 
+    <section id="angles-input">
+    <input id="input-one" type="number" required >
+    <input id="input-two" type="number" required>
+    <input id="input-three" type="number" required>
+    </section>
     <button id="btn-check">Check!</button>
-    <br><br>
+    
 
-    <textarea id="output-area" placeholder = "output will appear here"></textarea>
+    <div id="output-area"></div>
 
-
+    <footer>   <ul>
+        <li><a href="https.//github.com/srijani07"><img src="github.svg"></a></li>
+           <li><a href="https://www.linkedin.com/in/srijani-parui/"><img src="linkedin.svg"></a></li>
+               <li><a href="https.//twitter.com/earlnextdoor_"><img src="twitter.svg"></a></li>
+               <li><a href="https://twitter.com/earlnextdoor_"><img src="briefcase.svg"></a></li>
+  
+    </ul>
+  
+  </footer>
     <script type="text/javascript" src="app.js"></script>
 </body>
 </html>

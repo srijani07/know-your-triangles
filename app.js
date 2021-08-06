@@ -6,7 +6,7 @@ var btnCheck = document.querySelector("#btn-check");
 var outputArea = document.querySelector("#output-area");
 function clickHandler() {
 
-if(parseInt(inputOne.value) <=0 || parseInt(inputOne.value) >=180 || parseInt(inputTwo.value) <=0 || parseInt(inputTwo.value) >=180 || parseInt(inputThree.value) <=0 || parseInt(inputThree.value) >=180) { //checking if angles are between 1 and 179 or not
+if(parseInt(inputOne.value) <=0 || parseInt(inputOne.value) >=180 || parseInt(inputTwo.value) <=0 || parseInt(inputTwo.value) >=180 || parseInt(inputThree.value) <=0 || parseInt(inputThree.value) >=180  || inputOne.value === "" || inputTwo.value === "" ||inputThree.value === "" ){ //checking if angles are between 1 and 179 or not
     outputArea.innerHTML = "Please enter a valid input."
 
 }

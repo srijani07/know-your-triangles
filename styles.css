@@ -1,0 +1,70 @@
+
+*{
+    margin : 0;
+    padding : 0;
+    font-weight:bold;
+    background-color:#C7D2FE;
+    color : black;
+    text-align:center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header,footer {
+    
+    height : 30px;
+    overflow : hidden;
+    color:rgb(255, 255, 255);
+    align-content: center;
+    padding : 10px;
+    font-weight: bold;
+    font-size:x-large
+}
+
+header {
+    margin-bottom : 25px;
+    background-color : black;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid black;
+   }
+   ul {
+    list-style-type: none;
+
+}
+li{
+    display:inline;
+    margin : 0rem 3rem;
+}
+button {
+    background-color:black;
+    color : white;
+    border-radius: 5px;
+    padding : 4px 4px;
+    margin : 10px;
+}
+
+input {
+    height:20px;
+    width : 40px;
+    margin : 10px 30px;
+    background-color:white;
+}
+
+#angles-input {
+    margin : 10px;
+}
+
+#output-area {
+    font-weight : bolder;
+    font-size :20px;
+    background-color : rgb(122, 21, 122);
+    color : white;
+    margin : 50px auto;
+    padding : 20px;
+    width : 500px;
+
+
+}
