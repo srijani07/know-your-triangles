@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>triangle validator</title>
+    <title>calculate area</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>know your triangles!</header>
-    <a class= "home-options"href = "trianglequiz.html" target="_self">Test your knowledge</a>
-        <a class= "home-options"href = "hypotenuse.html" target="_self">Calculate hypotenuse</a>
-    <a class= "home-options"href = "area.html" target="_self">Calculate area</a>
-        <a class= "home-options"href = "angles.html" target="_self">Angles validator</a>
-   
+    <header>calculate area</header>
+    Enter the three sides below : 
+    <section id="side-input">
+    <input id="input-one" type="number" required >
+    <input id="input-two" type="number" required>
+    <input id="input-three" type="number" required>
+    </section>
+    <button id="btn-calculate" >Calculate!<br></button>
+    
+
+    <div id="output-area-calculate"></div>
 
     <footer>   <ul>
         <li><a href="https://github.com/srijani07"><img src="github.svg"></a></li>
@@ -24,6 +29,6 @@
     </ul>
   
   </footer>
-    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="apparea.js"></script>
 </body>
 </html>

@@ -1,8 +1,11 @@
+// for triangle validator
 var inputOne = document.querySelector("#input-one");
 var inputTwo = document.querySelector("#input-two");
 var inputThree = document.querySelector("#input-three");
 var btnCheck = document.querySelector("#btn-check");
 var outputArea = document.querySelector("#output-area");
+
+
 
 outputArea.style.display = "none";
 
