@@ -1,2 +1,2 @@
 # know-your-triangles
-triangle validator built using vanillaJS. user enters the three angles and checks if a triangle can be formed with those angles.
+An app used to test your knowledge of triangles. Functionalities - Take a quiz, calculate area and/or hypotenuse and find if a triplet of angles can form a triangle or not.
